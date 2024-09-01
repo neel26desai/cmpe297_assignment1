@@ -10,10 +10,12 @@ Building a Tic Tac Toe game using Claude Dev, and Sonnet 3.5 model. Without havi
 ## Prompts:
 
 Prompt 1:
-    I want to build a tic toe game using python, the game will have 3 difficulty levels, easy medium and hard, before we start a game we will aks a user to mention which dificulty they would like to play with.
+   
+I want to build a tic toe game using python, the game will have 3 difficulty levels, easy medium and hard, before we start a game we will aks a user to mention which dificulty they would like to play with.
 
 Prompt 2:
-    Great the game is working, now instead of being able to play via the CLI I want a GUI, which will allow me to play the game
+
+Great the game is working, now instead of being able to play via the CLI I want a GUI, which will allow me to play the game
 
 ## Demo Video: 
 https://youtu.be/umwtvPruFBg
