@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeployWizard - Simplifying MLOps Deployment</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #34495e;
+            --accent-color: #2ecc71;
+            --text-color: #333;
+            --bg-color: #f4f7f9;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        .nav-links li {
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+        main {
+            margin-top: 80px;
+        }
+        section {
+            padding: 4rem 0;
+        }
+        h1, h2, h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 6rem 0;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #27ae60;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .feature {
+            flex-basis: calc(33.333% - 20px);
+            background-color: white;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        .feature h3 {
+            color: var(--primary-color);
+        }
+        #team, #contact {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+        }
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+            .feature {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">DeployWizard</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Simplify Your MLOps Deployment</h1>
+                <p>Leverage AI to streamline your machine learning model deployments</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>DeployWizard is a cutting-edge tech startup that leverages Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to automate and streamline the deployment of machine learning models in cloud environments.</p>
+        </section>
+
+        <section id="features" class="container">
+            <h2>Our Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Automated Containerization</h3>
+                    <p>Generate Dockerfiles and container configurations with ease, saving you hours of setup time.</p>
+                </div>
+                <div class="feature">
+                    <h3>Infrastructure as Code</h3>
+                    <p>Create IaC templates for popular cloud platforms automatically, ensuring best practices are always followed.</p>
+                </div>
+                <div class="feature">
+                    <h3>Deployment Instructions</h3>
+                    <p>Get detailed, step-by-step deployment guides tailored to your specific environment and requirements.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="container">
+            <h2>Benefits</h2>
+            <ul>
+                <li>Save time on researching deployment strategies</li>
+                <li>Reduce errors in the deployment process</li>
+                <li>Stay up-to-date with best practices in MLOps</li>
+                <li>Focus on innovation rather than configuration</li>
+            </ul>
+        </section>
+
+        <section id="team" class="container">
+            <h2>Our Team</h2>
+            <p><strong>Founder & CEO:</strong> Neel Desai</p>
+            <p>With a passion for machine learning and cloud technologies, Neel Desai founded DeployWizard to solve the common challenges faced by ML engineers and DevOps professionals in deploying models to production environments. Neel's vision is to make MLOps accessible and efficient for teams of all sizes.</p>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@deploywizard.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Tech Street, San Francisco, CA 94105</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DeployWizard, Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
