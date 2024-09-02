@@ -7,3 +7,9 @@ We have the following folders
 
 - claude_dev
     - In this folder we demonstrate, how we can build a complete application, such as a tic-tac-toe game, usign the Claude dev extension.
+
+- VC_pitch
+    - generated all the documents required for starting a start up using Claude.
+
+- claude_10_usecase
+    - demonstrated how 10 popular coding usecases can be done using Claude dev extension. (More details can be found in the read me present in side the folder)
