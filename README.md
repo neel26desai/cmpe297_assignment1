@@ -13,3 +13,6 @@ We have the following folders
 
 - claude_10_usecase
     - demonstrated how 10 popular coding usecases can be done using Claude dev extension. (More details can be found in the read me present in side the folder)
+
+- multimodal
+    -  demonstrates how we can use the multimodal capabilities of Gemini,ChatGPT and Claude, for various usecases.
