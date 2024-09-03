@@ -18,4 +18,7 @@ We have the following folders
     -  demonstrates how we can use the multimodal capabilities of Gemini,ChatGPT and Claude, for various usecases.
 
 - video_summarization
-    In this section we have used gemin 1.5 pro to summarize a 3 hour long video, and write and build a medium article on it.
+    - In this section we have used gemin 1.5 pro to summarize a 3 hour long video, and write and build a medium article on it.
+
+- long_content
+    - In this section we see, how we can use long context of gemini models, to achives newer tasks with LLMS. 
